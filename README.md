@@ -47,6 +47,7 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 
 # Getting Started
 
+![robo](/images/robo1.jpg)
 
 # Items Check and Assembly
 
