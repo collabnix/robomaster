@@ -127,4 +127,9 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 
 ![image](https://user-images.githubusercontent.com/34368930/117563428-697f6500-b0c3-11eb-8ddd-61424cffd8e3.png)
 
+## Get Ready!
+
+![image](https://user-images.githubusercontent.com/34368930/117563481-d692fa80-b0c3-11eb-8e34-5fd1a05f713e.png)
+
+
 
