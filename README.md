@@ -3,7 +3,7 @@
 The RoboMaster S1 is an educational robot that provides users with an in-depth understanding of science, math, physics, programming, and more through captivating gameplay modes and intelligent features.
 
 
-## Features
+## Top 10 Features
 
 
 - Support for Python and Scratch programming language
@@ -16,15 +16,8 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 - Multiple Exciting Battle Modes
 - Innovative Hands-On Learning
 - Two shooting methods: gel beads and infrared beams.
-- Supports the official programming platform provided in the RoboMaster app known as RoboMaster Lab. 
-- This feature is available on mobile devices and computers. You can program, connect, and operate the S1 directly when using RoboMaster Lab.
-- Many parts of the S1 can be accessed and controlled through programming, including 7 motors, 6 hit detectors, 7 infrared sensors, 21 LED lights, 1 vision sensor, 1 microphone, 1 speaker, and 2 gyroscopes.
-- With a microSD card inserted, the S1 can capture photos and record 1080p videos; without a microSD card, it supports only 720p.
-- Photos taken by the S1 will be stored on the microSD card (when one is inserted). You can download them to your local device or share them directly to social media. For photos on the microSD card, you can remove the card and use an external device to export.
-- Users can record and store video using the RoboMaster app. However, if operating without a microSD card, 720p is the only resolution option. When using a microSD card, users can record in 1080p, although it should be noted that playback within the app will still be displayed in 720p. The 1080p version will be stored on the microSD card and can be exported using an external device.
-- The S1 has six PWM ports, which support servos, LEDs, drivers, and more. For more information on supported accessories, please visit programming guide.
-- The battery of the S1 can last for 35 minutes of continuous use. This was measured with the S1 moving at a constant speed of 2.0m/s on a flat surface. The battery life on standby is about 100 minutes.
-- The maximum forward speed is 3.5m/s, the maximum backward speed is 2.5m/s, and the maximum speed when moving sideways is 2.8m/s.
+- Capability to capture photos and record 1080p videos; without a microSD card, it supports only 720p.
+
 
 
 ## Stimulus that S1 recognise
