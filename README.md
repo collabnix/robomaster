@@ -41,9 +41,8 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 1. [Getting Started](#getting-started)
 2. [Items Check and Assembly](#items-check-and-assembly)
 3. [Asembly the Mecanum Wheels](#assembly-the-mecanum-wheels)
-4. [Assembling the Chassis](#assemblig-the-chassis)
-5. [Attaching the Gimbal to the Chassis](#attaching-the-gimbal-to-the-chassis)
-6. [Mounting the Gel Bead Container and Intelligent Battery](#mounting-the-gel-bead-container-and-intelligent-battery)
+4. [Attaching the Gimbal to the Chassis](#attaching-the-gimbal-to-the-chassis)
+5. [Mounting the Gel Bead Container and Intelligent Battery](#mounting-the-gel-bead-container-and-intelligent-battery)
 
 # Getting Started
 
