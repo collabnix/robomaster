@@ -1,4 +1,4 @@
-# An Ultimate Tutorial to get started with DJI Robomaster S1
+# An Ultimate Tutorial for DJI Robomaster S1 Beginners
 
 The RoboMaster S1 is an educational robot that provides users with an in-depth understanding of science, math, physics, programming, and more through captivating gameplay modes and intelligent features.
 
