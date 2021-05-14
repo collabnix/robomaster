@@ -46,6 +46,25 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 
 # Getting Started
 
+- Installing Robomaster Python Module on MacOS
+
+```
+conda create --name dji python=3.7
+```
+
+```
+conda activate dji
+```
+
+```
+pip install robomaster
+```
+
+
+
+
+# Steps to assemble Robomaster
+
 ![robo](/images/robo1.jpg)
 
 ![image](https://user-images.githubusercontent.com/34368930/117563246-22dd3b00-b0c2-11eb-83aa-33a847756b95.png)
