@@ -43,6 +43,7 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 3. [Asembly the Mecanum Wheels](#assembly-the-mecanum-wheels)
 4. [Attaching the Gimbal to the Chassis](#attaching-the-gimbal-to-the-chassis)
 5. [Mounting the Gel Bead Container and Intelligent Battery](#mounting-the-gel-bead-container-and-intelligent-battery)
+6. [Hacking into Robomaster S1](#hacking-into-robomaster)
 
 # Getting Started
 
@@ -150,4 +151,57 @@ pip install robomaster
 ![image](https://user-images.githubusercontent.com/34368930/117563481-d692fa80-b0c3-11eb-8e34-5fd1a05f713e.png)
 
 
+## Hacking into Robomaster
+
+
+Took some time, but now we have finally root access to the Robomaster S1. The following
+instructions are for Windows 10 users, but it should also work for any other OS.
+
+### What you need
+
+- Android SDK Platform‐Tools (https://developer.android.com/studio/releases/platform‐tools)
+- Micro USB Cable
+- Latest Robomaster S1 App & Firmware
+
+
+### Step by step instructions
+
+- Unzip the Android SDK Platform‐Tools. Any directory will do for now. Remember the path,
+we will need it later.
+- Use the Intelligent Controller Micro USB Port (8) and connect the S1 to your computer:
+Please be aware that no other Android device should be connected via USB!
+- Start the Robomaster S1 application. Go to the Lab, create a new Python application and
+paste the following code:
+
+```
+def root_me(module):
+ __import__=rm_log.__dict__['__builtins__']['__import__']
+ return __import__(module,globals(),locals(),[],0)
+builtins=root_me('builtins')
+subprocess=root_me('subprocess')
+proc=subprocess.Popen('/system/bin/adb_en.sh',shell=True,executable='
+/system/bin/sh',stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+```
+
+- Run the Code within the S1 Lab. If you followed the steps correctly there should be no
+compilation errors. The Console will show: Execution Complete
+
+- Don’t close the S1 Application! Open an Explorer window and go to the directory which holds
+the earlier extracted Android Platform Tools. Open a PowerShell in this directory (Shift +
+Right‐Click)
+
+- Run the ADP command as follows: 
+
+```
+.\adb.exe devices
+```
+
+You should see something like
+this:
+
+7) Execute: 
+
+```
+.\adb.exe shell
+```
 
