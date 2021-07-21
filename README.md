@@ -11,6 +11,16 @@
 
 The RoboMaster S1 is an educational robot that provides users with an in-depth understanding of science, math, physics, programming, and more through captivating gameplay modes and intelligent features.
 
+## Table of Contents
+
+1. [Top 10 Features](#top-10-features)
+2. [Stimulus that Robomaster S1 Recognizes](#Stimulus-that-S1-recognise)
+3. [Getting Started](#getting-started)
+4. [Items Check and Assembly](#items-check-and-assembly)
+5. [Asembly the Mecanum Wheels](#assembly-the-mecanum-wheels)
+6. [Attaching the Gimbal to the Chassis](#attaching-the-gimbal-to-the-chassis)
+7. [Mounting the Gel Bead Container and Intelligent Battery](#mounting-the-gel-bead-container-and-intelligent-battery)
+8. [Hacking into Robomaster S1](#hacking-into-robomaster)
 
 ## Top 10 Features
 
@@ -29,7 +39,7 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 
 
 
-## Stimulus that S1 recognise
+## Stimulus that S1 recognises
 
 - Clapping Recognition: the S1 can recognize two or three consecutive claps and be programmed to execute custom responses.
 - Gesture Recognition: the S1 can detect human gestures such as hand or arm signals and be programmed to execute custom responses.
