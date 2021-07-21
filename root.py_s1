@@ -1,0 +1,8 @@
+def root_me(module):
+    __import__=rm_define.__dict__['__builtins__']['__import__']
+    return __import__(module,globals(),locals(),[],0)
+
+builtins=root_me('builtins')
+subprocess=root_me('subprocess')
+proc=subprocess.Popen('/system/bin/adb_en.sh',shell=True,executable='/system/bin/sh',stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+
