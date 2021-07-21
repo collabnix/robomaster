@@ -1,4 +1,13 @@
+![stars](https://img.shields.io/github/stars/collabnix/robomaster)
+![forks](https://img.shields.io/github/forks/collabnix/robomaster)
+![issues](https://img.shields.io/github/issues/collabnix/robomaster)
+
+
+
 # An Ultimate Tutorial for DJI Robomaster S1 Beginners
+
+
+![MY Image](https://github.com/collabnix/robomaster/blob/main/robomaster_top.png)
 
 The RoboMaster S1 is an educational robot that provides users with an in-depth understanding of science, math, physics, programming, and more through captivating gameplay modes and intelligent features.
 
