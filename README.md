@@ -21,6 +21,7 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 6. [Attaching the Gimbal to the Chassis](#attaching-the-gimbal-to-the-chassis)
 7. [Mounting the Gel Bead Container and Intelligent Battery](#mounting-the-gel-bead-container-and-intelligent-battery)
 8. [Hacking into Robomaster S1](#hacking-into-robomaster)
+9. [References](#references)
 
 ## Top 10 Features
 
@@ -330,3 +331,9 @@ User 126 + Nice 0 + Sys 203 + Idle 1138 + IOW 2 + IRQ 0 + SIRQ 1 = 1470
    69  1   0% S     1      0K      0K  fg root     mmcqd/0
   243  1   0% S    27  50832K   9300K  fg root     /system/bin/dji_sys
   ```
+
+
+## References
+
+- [Robomaster S1 Videos](https://www.dji.com/robomaster-s1/video)
+- [Robomaster S1 Courses](https://www.dji.com/robomaster-s1/video-courses)
