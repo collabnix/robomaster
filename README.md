@@ -227,3 +227,84 @@ this:
 ```
 
 <img width="689" alt="Screen Shot 2021-07-21 at 2 04 35 PM" src="https://user-images.githubusercontent.com/34368930/126458200-a5f8727a-1a2d-4953-852d-066b34237913.png">
+
+## DJI Specific Commands
+
+```
+dji
+dji_amt_board       dji_derivekey       dji_monitor         dji_verify
+dji_blackbox        dji_hdvt_uav        dji_net.sh          dji_vision
+dji_camera          dji_log_control.sh  dji_network
+dji_chkotp          dji_mb_ctrl         dji_sw_uav
+dji_cpuburn         dji_mb_parser       dji_sys
+```
+
+
+### Checking IP address
+
+```
+ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+8: rndis0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP qlen 1000
+    link/ether 0a:f8:f6:bb:55:64 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.42.2/24 brd 192.168.42.255 scope global rndis0
+       valid_lft forever preferred_lft forever
+9: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP qlen 1000
+    link/ether 60:60:1f:cd:95:f7 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.2.1/24 brd 192.168.2.255 scope global wlan0
+       valid_lft forever preferred_lft forever
+ ```
+ 
+ ### Checking the type of Hunter.py file
+ 
+ ```
+ ./hunter.py
+ vision_ctrl.enable_detection(rm_define.vision_detection_marker)  
+ ```
+ 
+### Checking Memory Stats
+
+```
+127|root@xw607_dz_ap0002_v4:/system/bin # cat /proc/meminfo
+MemTotal:         271708 kB
+MemFree:           59076 kB
+Buffers:           18700 kB
+Cached:            94776 kB
+SwapCached:            0 kB
+Active:           117648 kB
+Inactive:          58020 kB
+Active(anon):      62724 kB
+Inactive(anon):      136 kB
+Active(file):      54924 kB
+Inactive(file):    57884 kB
+Unevictable:         500 kB
+Mlocked:               0 kB
+HighTotal:             0 kB
+HighFree:              0 kB
+LowTotal:         271708 kB
+LowFree:           59076 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                36 kB
+Writeback:             0 kB
+AnonPages:         62696 kB
+Mapped:            12308 kB
+Shmem:               176 kB
+Slab:              12712 kB
+SReclaimable:       6248 kB
+SUnreclaim:         6464 kB
+KernelStack:        2152 kB
+PageTables:         1300 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      135852 kB
+Committed_AS:     341612 kB
+VmallocTotal:     745472 kB
+VmallocUsed:      153220 kB
+VmallocChunk:     432132 kB
+```
+
