@@ -154,22 +154,20 @@ pip install robomaster
 ## Hacking into Robomaster
 
 
-Took some time, but now we have finally root access to the Robomaster S1. The following
-instructions are for Windows 10 users, but it should also work for any other OS.
+
 
 ### What you need
 
 - Android SDK Platform‐Tools (https://developer.android.com/studio/releases/platform‐tools)
 - Micro USB Cable
 - Latest Robomaster S1 App & Firmware
+- Windows 10 (might or mightn't work for MacOS)
 
 
 ### Step by step instructions
 
-- Unzip the Android SDK Platform‐Tools. Any directory will do for now. Remember the path,
-we will need it later.
-- Use the Intelligent Controller Micro USB Port (8) and connect the S1 to your computer:
-Please be aware that no other Android device should be connected via USB!
+- Unzip the Android SDK Platform‐Tools somewhere in your system
+- Use the Intelligent Controller Micro USB Port and connect the S1 to your computer.
 - Start the Robomaster S1 application. Go to the Lab, create a new Python application and
 paste the following code:
 
