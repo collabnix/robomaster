@@ -308,3 +308,25 @@ VmallocUsed:      153220 kB
 VmallocChunk:     432132 kB
 ```
 
+### Top Command
+
+```
+oot@xw607_dz_ap0002_v4:/system/bin # top
+
+
+
+User 8%, System 13%, IOW 0%, IRQ 0%
+User 126 + Nice 0 + Sys 203 + Idle 1138 + IOW 2 + IRQ 0 + SIRQ 1 = 1470
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+14020  1   3% S    28 146468K   8588K  fg root     /system/bin/dji_camera
+  247  3   3% S    24 213128K  14876K  fg root     /system/bin/dji_vision
+  483  1   2% S     8 112412K  11072K unk root     /data/python_files/bin/python
+  233  1   2% S    22  44460K   5232K  fg root     /system/bin/dji_hdvt_uav
+  239  0   1% S    15  31368K   4464K  fg root     /system/bin/dji_sw_uav
+  237  0   0% S    13  24208K   4092K  fg root     /system/bin/dji_network
+   41  0   0% S     1      0K      0K  fg root     kworker/0:1
+  245  1   0% S     6  31904K  20492K  fg root     /system/bin/dji_blackbox
+   69  1   0% S     1      0K      0K  fg root     mmcqd/0
+  243  1   0% S    27  50832K   9300K  fg root     /system/bin/dji_sys
+  ```
