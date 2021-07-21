@@ -207,7 +207,7 @@ compilation errors. The Console will show: Execution Complete
 the earlier extracted Android Platform Tools. Open a PowerShell in this directory (Shift +
 Right‐Click)
 
-- Run the ADP command as follows: 
+- Run the ADP command to list the devices: 
 
 ```
 .\adb.exe devices
@@ -216,9 +216,14 @@ Right‐Click)
 You should see something like
 this:
 
-7) Execute: 
+
+
+<img width="599" alt="Screen Shot 2021-07-21 at 2 04 14 PM" src="https://user-images.githubusercontent.com/34368930/126458132-9a1fdd51-3d2f-4695-88a1-896d3ca09652.png">
+
+-  Execute: 
 
 ```
 .\adb.exe shell
 ```
 
+<img width="689" alt="Screen Shot 2021-07-21 at 2 04 35 PM" src="https://user-images.githubusercontent.com/34368930/126458200-a5f8727a-1a2d-4953-852d-066b34237913.png">
