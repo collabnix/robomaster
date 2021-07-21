@@ -14,7 +14,7 @@ The RoboMaster S1 is an educational robot that provides users with an in-depth u
 ## Table of Contents
 
 1. [Top 10 Features](#top-10-features)
-2. [Stimulus that Robomaster S1 Recognizes](#Stimulus-that-S1-recognise)
+2. [Stimulus that Robomaster S1 Recognises](#Stimulus-that-S1-recognises)
 3. [Getting Started](#getting-started)
 4. [Items Check and Assembly](#items-check-and-assembly)
 5. [Asembly the Mecanum Wheels](#assembly-the-mecanum-wheels)
